@@ -1,0 +1,12 @@
+POST http://localhost:8080/reserve/delete
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id": "12345",
+    "jsonrpc": "2.0",
+    "method": "reserve.delete",
+    "params": {
+        "skus": ["NikeClassicM", "hello2"]
+    }
+}
